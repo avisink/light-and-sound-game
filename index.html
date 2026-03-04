@@ -10,12 +10,24 @@
 </head>
 
 <body>
-  <h1>Hello world</h1>
+  <h1>Light and Sound Game</h1>
+  <hr>
+  <p>Welcome to Ayo's light and sound game! Repeat back the pattern you hear by pressing the buttons.</p>
+  <button id="startBtn" onclick="startGame()">Start</button>
+  <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+
+  <div id="gameButtonArea">
+    <!---gamebuttons--->
+    <button id="button1" onmousedown="startTone(1)" onmouseup="stopTone()" onclick="guess(1)"></button>
+    <button id="button2" onmousedown="startTone(2)" onmouseup="stopTone()" onclick="guess(2)"></button>
+    <button id="button3" onmousedown="startTone(3)" onmouseup="stopTone()" onclick="guess(3)"></button>
+    <button id="button4" onmousedown="startTone(4)" onmouseup="stopTone()" onclick="guess(4)"></button>
+  </div>
 
 
   <!-- Links our JavaScript code to our HTML code -->
   <script src="script.js"></script>
-</script>
+  </script>
 </body>
 
 </html>
