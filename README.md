@@ -53,7 +53,7 @@ The following **required** functionality is complete:
 
 Add your screen recordings for specified implemented features here:
 
-![losing screen recording](https://drive.google.com/uc?export=download&id=19h9iv8Qo7_WLKezEtiwx2664Zye8docm)
+![losing screen recording](https://github.com/avisink/light-and-sound-game/blob/main/Light%20and%20Sound%20Game%20Losing-%20Ayomide%20V%20Isinkaye.gif)
 
 [User losing - direct download](https://drive.google.com/uc?export=download&id=19h9iv8Qo7_WLKezEtiwx2664Zye8docm)
 
